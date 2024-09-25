@@ -1,0 +1,106 @@
+/* General Page Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #d1d1d1;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+.confirmation-box {
+    text-align: center;
+}
+
+.checkmark {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.order-number {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.order-summary {
+    margin-top: 30px;
+}
+
+.order-summary h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.order-summary ul {
+    list-style: none;
+    padding: 0;
+}
+
+.order-summary ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1rem;
+}
+
+.order-summary ul li.total {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.shipping-details {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.shipping-details h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.shipping-details p {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.print-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.print-btn:hover {
+    background-color: #218838;
+}
