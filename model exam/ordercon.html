@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Booked</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff7f50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h2 {
+            color: #ff7f50;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #confirmation {
+            width: 90%;
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .appointment-details {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #ff7f50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff6347;
+        }
+        @media (max-width: 600px) {
+            #confirmation {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Beauty Parlour Appointment Booking</h1>
+</header>
+
+<section id="confirmation">
+    <h2>Appointment Confirmed!</h2>
+    <p>Thank you for booking with us!</p>
+    <p>Your appointment details are as follows:</p>
+
+    <div class="appointment-details">
+        <p><strong>Name:</strong> Jane Doe</p>
+        <p><strong>Email:</strong> jane.doe@example.com</p>
+        <p><strong>Phone:</strong> +1234567890</p>
+        <p><strong>Service:</strong> Haircut</p>
+        <p><strong>Stylist:</strong> John Smith</p>
+        <p><strong>Date:</strong> 2024-09-25</p>
+        <p><strong>Time:</strong> 10:00 AM</p>
+        <p><strong>Notes:</strong> Please arrive 10 minutes early.</p>
+        <p><strong>Payment Method:</strong> PayPal</p>
+    </div>
+
+    <p>You will receive a confirmation email shortly.</p>
+    <p>If you need to modify or cancel your appointment, please contact us.</p>
+
+    <button onclick="window.location.href='index.html'">Go to Homepage</button> <!-- Redirect to homepage -->
+</section>
+
+<footer>
+    <p>&copy; 2024 Beauty Parlour Booking</p>
+</footer>
+
+</body>
+</html>

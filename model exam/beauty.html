@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <title>Beauty Parlour Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>Beauty Parlour Appointment Booking</h1>
+</header>
+    <section id="booking">
+    <h2>Book Your Appointment</h2>
+    <form id="booking-form" method="post">
+
+    <fieldset>
+    <legend>Customer Information</legend>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required> 
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+    </fieldset>
+
+    <fieldset>
+    <legend>Appointment Details</legend>
+    <label for="service">Choose a Service:</label>
+     <select id="service" name="service">
+     <option value="haircut">Haircut</option>
+    <option value="facial">Facial</option>
+    <option value="manicure">Manicure</option>
+    <option value="pedicure">Pedicure</option>
+    <option value="massage">Massage</option>
+ </select>
+<label for="stylist">Choose a Stylist:</label>
+<select id="stylist" name="stylist">
+<option value="jane">Jane Doe</option>
+<option value="john">John Smith</option>
+<option value="anna">Anna Lee</option>
+</select>
+<label for="date">Preferred Date:</label>
+<input type="date" id="date" name="date" required>
+<label for="time">Preferred Time:</label>
+<input type="time" id="time" name="time" required>
+<label for="notes">Additional Notes:</label>
+</fieldset>
+
+<fieldset>
+    <legend>Payment Information</legend>
+    <label for="payment-method">Choose Payment Method:</label>
+    <select id="payment-method" name="payment_method">
+    <option value="paypal">PayPal</option>
+    <option value="stripe">Credit Card (Stripe)</option>
+    </select>
+    <label>
+    <input type="checkbox" name="deposit" value="true"> Pay deposit now
+    </label>
+</fieldset>
+<button type="submit">Confirm Appointment</button>
+</form>
+</section>
+<footer>
+    <p>&copy; 2024 beauty Parlour</p>
+</footer>
+</body>
+</html>
